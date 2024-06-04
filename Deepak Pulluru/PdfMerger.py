@@ -42,7 +42,7 @@ if __name__ == "__main__":
     merged_output = 'merged.pdf'
     merge_pdfs(pdfs_to_merge, merged_output)
     pdf_to_split = 'example.pdf'  
-    output_directory = '.'   another directory
+    output_directory = '.'
     split_page_number = 5  
     split_pdf(pdf_to_split, output_directory, split_page_number)
 
